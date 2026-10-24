@@ -1,24 +1,24 @@
 # Written by scripts/cask.sh in 5xxeu/tforphans on each release. DO NOT EDIT.
 cask "tforphans" do
-  version "0.1.17"
+  version "0.1.18"
 
   on_macos do
     on_arm do
-      sha256 "532cd141cb74e452734eef4788461be73e3a27e9e1880abb998ca56aac8824bf"
+      sha256 "47fe2d181bed1c894c108db24f86ba198e3c98ae50f7f6ce6cac60fe3e293c64"
       url "https://github.com/5xxeu/tforphans/releases/download/v#{version}/tforphans_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "bab5f15852e95f8b0c0dbecb389bd792c6374fbeee65b4d9f389a3e726feb942"
+      sha256 "ffd6cc67f95a9de5928ad4fc2243ff3b91a09f2ecf4118cbb04f18f882d9d19c"
       url "https://github.com/5xxeu/tforphans/releases/download/v#{version}/tforphans_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "36b07c85a3f313653eb0345d66d540ed73b3a92d615ea5d72678d2e38511b4e1"
+      sha256 "41d55b8e012c0aa2ecfdb78782ae69342d935219f71c99b5c83cd4ba7906f09b"
       url "https://github.com/5xxeu/tforphans/releases/download/v#{version}/tforphans_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b9c44a4403bc3a4ba307d24c09a3b0e9f1aa5bca8b8b69d1ada8651c5d5af1e0"
+      sha256 "b1f9204d82380b766d169aaf7eba0d7c4c1781cae8a8feea41114e233b10f5a3"
       url "https://github.com/5xxeu/tforphans/releases/download/v#{version}/tforphans_#{version}_linux_amd64.tar.gz"
     end
   end
